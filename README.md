@@ -7,6 +7,25 @@
 
 ### The links of the following groups are preloaded with the data of the top50 addresses. The addresses after No.50 need to be entered in the address input box and queried
 
+## Indicator specification: 
+1. address 								-> address
+2. arb_gas_used 							-> arbitrum chain total gas used
+3. arb_tx_count 							-> arbitrum chain total transactions count
+4. arb_active_days 						-> arbitrum chain active days count
+5. arb_active_weeks 						-> arbitrum chain active weeks
+6. arb_initial_block_date 					-> arbitrum chain initial active block date
+7. arb_last_block_date 					-> arbitrum chain last active block date
+8. lz_initial_block_time 					-> layerzero initial active block date
+9. lz_last_block_time 						-> layerzero last active block date
+10. lz_tx_count 							-> layerzero total transactions count
+11. lz_active_src_chain_count 				-> layerzero bridged source chain count
+12. lz_active_dest_chain_count 				-> layerzero bridged destination chain count
+13. lz_active_contract_count 				-> layerzero interaction contract count
+14. lz_age_days 							-> layerzero age days
+15. bridged_amount_total($) 				-> layerzero bridged tokens() total amount(US dollar)
+16. bridged_tokens(<token:$amt>,amt>=0.1$) 	-> layerzero bridged tokens amount(US dollar), format<token1(sourceChain1->destinationChain1):amt1|token2(sourceChain2->destinationChain2):amt2>
+
+# Groups data(Dune Dashbord or Dune screemshort)
 [Group-1-dune-detail-data](https://dune.com/satson/sybilsdetail?addresses_t6c209=0x0367da27fa76bce23c4135dc6b3d72160f4734c2%2C0x07295355a78c94ffddb2bdeee1d8c1e7024cd595%2C0x12e8b8e9e7ac4d12b6ec9f780d402da4de72bdc0%2C0x2071d403aa4c66df58aba2c12b523257f309e89c%2C0x2c7a21bbe39e82bcadef55d4e69fe4cfdf4d752e%2C0x5df0b3360e50b4ef444f12f1e5473dda9604ee5f%2C0x72bf88bf3112126dbd78d15ec94d3623bab80e2c%2C0x884d9d553b1862ea8bf5d508c3ddbd541854a18c%2C0x8a395062e6b8b3758947c8cc96688363e78f15d2%2C0x9803e94f6014c0536cb9429447c6b6c2aaa25641%2C0xa0920c601ed57b413b1a89829f4a094ae6783ce7%2C0xaa97c0b1e66e1e2066ce95a9a26f8a3c98446db2%2C0xad5bbeaaf7d84c72359fe12e7d583d5f9291320e%2C0xb25105c230f03a7f1316fe33538c9e2007460a60%2C0xb408124ed16730268be9707cf1eef5980f8bb953%2C0xbd9cc4c2be71637fd4976e39c6030a3b20af504a%2C0xc79f2cd6de69db73ea691f4cb24eecf188216bc8%2C0xd924d9d0d442d1a82eeffa006fbff17fbdaba4ff%2C0xe6abd2bd60622b62de791ef4b08272b3a358df59%2C0xf113af4629c34de5acf6e4309b8f53e2a0ff5042%2C0xf7adc404d191537465f723aaccff4fbdb49c5cc7)
 ![Group-1 Screenshot](/dune_screenshots/Group-1.png)
 
